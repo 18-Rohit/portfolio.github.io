@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mmain{
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50rem;
+}
+header{
+    display: flex;
+}
+ #logo{
+    display: block;
+    margin-left: 419px;
+    height: 100px;
+    width: 100px;
+ }
+ header h1{
+     margin-left:25px ;
+     font-size: 100px;
+     height: 100px;
+     font-family: 'Supermercado One', 'cursive';
+     color: #fff1e0;
+ }
+ #nav{
+     text-align: center;
+     margin-top: -32px;
+     padding-top: 2rem;
+ }
+ #nav ul{
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     background-color: rgb(65, 36, 1);
+     height: 2.5rem;
+     padding-top: 1rem;
+
+ }
+#nav a{
+    text-decoration: none;
+    color:rgb(255, 248, 239);
+    margin:0px 55px;
+}
+#nav a:hover{
+    text-decoration: underline;
+}
+#main{
+    text-align: center;
+    height: 25rem;
+    padding-top: 7rem;
+}
+#main h2{
+    font-size: 50px;
+    color: white;
+    
+}
+#main h1{
+    font-size: 100px;
+    color: brown;
+    margin-bottom: 2rem;
+    font-family: 'Supermercado One', 'cursive';
+    cursor: pointer;
+}
+
+.bookname{
+   display: block;
+   margin: auto;
+   justify-content: center;
+   text-align: center;
+   height: 3rem;
+   width: 34rem;
+   border-style: hidden;
+   border-radius: 7px; 
+   font-family: 'Source Code Pro';
+   font-weight: bold;
+}
+
+#genre{
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    height: 3rem;
+    width:34.5rem;
+    border-radius: 7px;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+}
+#genre option{
+    color: rgb(8, 5, 0);
+    font-weight: bold;
+    background-color: rgb(250, 217, 217);
+    border-style: hidden;
+    font-family: 'Source Code Pro', 'monospace';
+    
+}
+#search{
+    background-color: bisque;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    height: 3rem;
+    width: 10rem;
+    border-style: hidden;
+    font-family: 'Source Code Pro', 'monospace';
+    cursor: pointer;
+}
+#search:active{
+    height: 2.9rem;
+    width: 9.5rem;
+    background-color: rgb(255, 143, 6);
+}
+#search:hover{
+    background-color: rgb(255, 143, 6);
+}
+ 
+#mablk{
+    background-color: bisque;
+}
+.h2h{
+    text-align: center;
+    font-family: 'Supermercado One', 'cursive';
+    font-size: 50px;
+    padding-top: 20px;
+    transition: all 1s ease-in;
+}
+.h2h:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#mablk img{
+    height: 280px;
+    width: 200px;
+    display:inline-block;
+}
+
+.bookimg{
+    display: inline-flex;
+    text-align: center;
+    border-color: rgba(252, 138, 0, 0.986);
+    border-style: ridge;
+    height: 279px;
+    width: 40rem;
+    margin-left: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 40px;
+    background-color: rgb(255, 159, 42);
+    transition: all 0.4s ease-in;
+}
+.bookimg:hover{
+    background-color: bisque;
+}
+.bookimg p{
+    padding: auto;
+    margin: auto;
+    color: brown;
+}
+.social-icons{
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+}
+.social-icons img{
+    height: 30px;
+    border-radius: 100%;
+    cursor:pointer;
+    margin-inline: 10px;
+    padding-top: 8px;
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+}
+footer h6{
+    font-size: 10px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 9px;
+}
